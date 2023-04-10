@@ -1,0 +1,38 @@
+.moduleComp {
+  height: 40px;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid var(--secondary);
+  align-items: center;
+}
+.inptype,
+.modulename,
+.opttype {
+  height: 100%;
+  /* padding: 0 1rem; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inptype,
+.opttype {
+  width: 40px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 20px;
+}
+.inptype,
+.modulename {
+  border-right: 1px solid var(--secondary);
+}
+.modulename {
+  /* width: 70%; */
+  font-size: 12px;
+  color: grey;
+  background: rgba(204, 230, 237, 0.484);
+}

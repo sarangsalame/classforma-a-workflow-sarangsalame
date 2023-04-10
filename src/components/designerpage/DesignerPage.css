@@ -1,0 +1,86 @@
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .module_container-wrapper {
+  border-bottom: 1px solid var(--secondary);
+  border-left: 1px solid var(--secondary);
+  border-right: 1px solid var(--secondary);
+  width: 35%;
+  height: 100%;
+  min-width: 300px;
+}
+.module_container-wrapper .module_heading {
+  width: 100%;
+  height: 100%;
+}
+.module_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.module_heading h3 {
+  border-bottom: 1px solid var(--secondary);
+  height: 40px;
+  width: 100%;
+  font-weight: 400;
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.module_list {
+  /* border: 5px solid green; */
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.playground {
+  height: 100%;
+  width: 65%;
+  min-height: 300px;
+  border-bottom: 1px solid var(--secondary);
+}
+.page_toggler {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.page_toggler button {
+  margin: 0 1rem;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.page_toggler button:hover {
+  background: var(--secondary);
+  border-radius: 50%;
+  color: white;
+}
+.page_list {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page_list > span {
+  margin: 0 0.5rem;
+}
+.curr_page {
+  font-size: 22px;
+  font-weight: 600;
+}

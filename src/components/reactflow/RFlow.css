@@ -1,0 +1,6 @@
+.selected {
+  background: var(--secondary);
+  color: var(--primary);
+  border: none;
+  outline: none;
+}
